@@ -1,0 +1,32 @@
+不加特征的：
+    train auc: 0.9200  acc: 0.8407  precision: 0.8415  recall: 0.8396  F1: 0.8404
+    eval auc: 0.8582  acc: 0.7857  precision: 0.7855  recall: 0.7862  F1: 0.7857
+    test auc: 0.8572  acc: 0.7849  precision: 0.7838  recall: 0.7873  F1: 0.7854
+
+加入Topic：
+    train auc: 0.9248  acc: 0.8471  precision: 0.8431  recall: 0.8528  F1: 0.8478
+    eval auc: 0.8648  acc: 0.7892  precision: 0.7850  recall: 0.7967  F1: 0.7907
+    test auc: 0.8653  acc: 0.7889  precision: 0.7836  recall: 0.7982  F1: 0.7907
+
+加入Language：
+    train auc: 0.9257   acc: 0.8453   precision: 0.8387   recall: 0.8551  F1: 0.8467
+    eval auc: 0.8645    acc: 0.7893   precision: 0.7842   recall: 0.7985  F1: 0.7911
+    test auc: 0.8652    acc: 0.7902   precision: 0.7842   recall: 0.8010  F1: 0.7923
+
+加入Platform：
+    train auc: 0.9295  acc: 0.8493  precision: 0.8524  recall: 0.8448  F1: 0.8485
+    eval auc: 0.8675  acc: 0.7962  precision: 0.7982  recall: 0.7930  F1: 0.7954
+    test auc: 0.8685  acc: 0.7962  precision: 0.7976  recall: 0.7938  F1: 0.7955
+
+加入Library：
+    train auc: 0.9281  acc: 0.8493  precision: 0.8590  recall: 0.8356  F1: 0.8470
+    eval auc: 0.8679  acc: 0.7956  precision: 0.8049  recall: 0.7805  F1: 0.7923
+    test auc: 0.8688  acc: 0.7977  precision: 0.8067  recall: 0.7831  F1: 0.7946
+
+加入Standard：
+    train auc: 0.9329  acc: 0.8536  precision: 0.8419  recall: 0.8706  F1: 0.8559
+    eval auc: 0.8676  acc: 0.7915  precision: 0.7803  recall: 0.8113  F1: 0.7954
+    test auc: 0.8686  acc: 0.7921  precision: 0.7805  recall: 0.8125  F1: 0.7960
+
+Combine：
+test：0.8543569298590785,0.7893745695592286,0.7809409824524647,0.8054978108430704,0.7928535215761665
